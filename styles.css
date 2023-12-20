@@ -1,9 +1,14 @@
 #turma {
 	background-color: aqua;
-	width: 170px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
 	text-align: center;
-	margin-top: 10px;
-	padding-top: 10px;
+	margin-top: 10px;	
 	border-radius: 11%;
+	border:  black solid;
+	padding: 10px 0px 30px 0px;
+}
+li:hover {
+	background-color: brown;
+	transition-duration: 3s;	
 }
